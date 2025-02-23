@@ -13,7 +13,7 @@ function Experience() {
             className="relative mx-4 mb-10 rounded-xl bg-gray-800 p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300"
           >
             <span className="absolute -left-7 top-1/2 h-4 w-4 -translate-y-1/2 rounded-full bg-lime-500 hidden lg:block"></span>
-            <span className="absolute left-0 top-7 h-[70%] w-1 rounded-full bg-lime-500 lg:h-[70%]"></span>
+            <span className="absolute left-0 top-50 h-[76%] w-1 rounded-full bg-lime-500 lg:h-[75%]"></span>
             <h2 className="text-xl font-semibold text-lime-400 lg:text-2xl">
               {experience.company}
             </h2>

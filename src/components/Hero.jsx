@@ -8,7 +8,7 @@ function Hero() {
         <div className="flex flex-col items-start">
           <div className="lg:mt-8">
             <h4 className="text-lg md:text-xl lg:text-2xl font-medium text-lime-300 lg:ml-12 ml-10 ">
-              Full-stack developer
+              Full-Stack Developer
             </h4>
             <h1 className="overflow-hidden text-[10vw] md:text-[6vw] lg:text-[10vw] font-semibold uppercase leading-none ml-10">
               Nikoloz <br />
@@ -19,7 +19,7 @@ function Hero() {
         <img
           src={img}
           alt="Nikoloz Tsutskiridze"
-          className="lg:mt-3 lg:h-[24rem] h-[20rem] md:h-[18rem] sm:h-[22.2rem] object-cover"
+          className="lg:mt-3 lg:ml-10 lg:h-[24rem] h-[20rem] md:h-[18rem] sm:h-[22.2rem] object-cover rounded-3xl shadow-lg shadow-lime-500/30"
         />
       </div>
       <div className="mb-6 mt-12">
