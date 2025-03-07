@@ -18,7 +18,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  "- C#, Styled Components, TypeScript, HTML, CSS, JavaScript, React, Next.js, Supabase, Git, GSAP, Tailwind CSS, .NET";
+  ", LINQ, RESTful APIs, C#, .NET, ASP.NET Core, Microsoft SQL Server, Styled Components, TypeScript, HTML, CSS, JavaScript, React, Next.js, Supabase, Git, GSAP, Tailwind CSS ";
 
 export const PROJECTS = [
   {
@@ -35,7 +35,7 @@ export const PROJECTS = [
     description:
       "An interactive application where users can mark and keep track of places they have visited around the world.",
     imgSrc: project2,
-    link: "https://your-world-wize-link.com",
+    link: "https://world-wize.netlify.app/",
   },
   {
     id: 4,
