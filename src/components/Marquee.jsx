@@ -9,7 +9,7 @@ function Marquee() {
           <motion.h1
             initial={{ x: "-100%" }}
             animate={{ x: "0" }}
-            transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
+            transition={{ repeat: Infinity, ease: "linear", duration: 40 }}
             key={i}
             className="py-3 text-3xl font-bold leading-none tracking-tighter lg:text-7xl"
           >
