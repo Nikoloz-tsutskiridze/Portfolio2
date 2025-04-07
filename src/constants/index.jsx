@@ -18,7 +18,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  ", LINQ, RESTful APIs, C#, .NET, ASP.NET Core, Microsoft SQL Server, Styled Components, TypeScript, HTML, CSS, JavaScript, React, Next.js, Supabase, Git, GSAP, Tailwind CSS ";
+  ", LINQ, RESTful APIs, C#, .NET, ASP.NET Core, MS-SQL, Styled Components, TypeScript, HTML, CSS, JavaScript, React, Next.js, Supabase, Git, GSAP, Tailwind CSS ";
 
 export const PROJECTS = [
   {
@@ -156,6 +156,14 @@ export const EDUCATION = [
       "The course provided a fundamental understanding of programming and the web development process, including best practices. I gained not only technical skills but also personal growth, which helped shape my overall development.",
     certificatePDF: "/Skillwill.pdf",
     certificateThumbnail: "/certificate.png",
+  },
+  {
+    id: 3,
+    degree: "Cambridge University English Course",
+    institution: "Skillwill Neo University",
+    duration: "2025 - 2026",
+    description:
+      "The course provides a comprehensive understanding of the English language.It enhances communication, vocabulary, and grammar, helping to improve fluency and confidence in various contexts.",
   },
 ];
 
