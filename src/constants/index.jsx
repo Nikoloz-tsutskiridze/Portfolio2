@@ -159,11 +159,11 @@ export const EDUCATION = [
   },
   {
     id: 3,
-    degree: "Cambridge University English Course",
+    degree: "IT Project Management",
     institution: "Skillwill Neo University",
     duration: "2025 - 2026",
     description:
-      "The course provides a comprehensive understanding of the English language.It enhances communication, vocabulary, and grammar, helping to improve fluency and confidence in various contexts.",
+      "This course provides a comprehensive understanding of IT Project Management, focusing on key methodologies such as Agile and Scrum. It enhances communication skills aiming to boost fluency and confidence in managing complex projects in various business contexts.",
   },
 ];
 

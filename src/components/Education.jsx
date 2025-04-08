@@ -5,8 +5,16 @@ function Education() {
   const educationRef = useRef(null);
   const [modalImage, setModalImage] = useState(null);
 
-  const openModal = (image) => setModalImage(image);
   const closeModal = () => setModalImage(null);
+
+  const openModal = (image) => {
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile) {
+      window.open(image, "_blank");
+    } else {
+      setModalImage(image);
+    }
+  };
 
   return (
     <>
@@ -52,9 +60,12 @@ function Education() {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
           onClick={closeModal}
         >
-          <div className="relative max-w-4xl w-full p-4">
+          <div
+            className="relative max-w-4xl w-full p-4 bg-white rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button
-              className="absolute top-4 right-4 text-white text-2xl font-bold"
+              className="absolute top-[26px] right-6 text-black text-3xl font-bold"
               onClick={closeModal}
             >
               &times;
