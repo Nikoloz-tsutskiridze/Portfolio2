@@ -62,7 +62,7 @@ function Hero() {
         />
       </motion.div>
 
-      {/* Buttons */}
+      {/* Resume Button Only */}
       <motion.div
         className="mb-8 mt-10 flex flex-wrap justify-center gap-4 z-10"
         initial={{ opacity: 0, y: 20 }}
@@ -82,25 +82,6 @@ function Hero() {
           <LuImport className="ml-2" />
           <motion.div
             className="absolute inset-0 bg-lime-300 opacity-30 blur-xl"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
-            whileHover={{ opacity: 1, scale: 1.5 }}
-          />
-        </motion.a>
-
-        <motion.a
-          href="/Cover Letter.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-          className="flex items-center rounded-xl border-2 border-lime-400 bg-black p-2 px-4 font-medium text-lime-400 hover:bg-black transition-all duration-300 ease-in-out relative overflow-hidden"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.98 }}
-        >
-          <span>Cover Letter.pdf</span>
-          <LuImport className="ml-2" />
-          <motion.div
-            className="absolute inset-0 bg-black opacity-30 blur-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.5 }}
             whileHover={{ opacity: 1, scale: 1.5 }}

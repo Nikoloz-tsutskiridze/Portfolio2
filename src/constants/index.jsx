@@ -97,6 +97,22 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
+    yearRange: "2025 - Present",
+    role: "Back-end Developer",
+    company: "CodeNestor",
+    description:
+      "Designed and developed server-side applications, RESTful APIs, and database structures. Built and maintained robust back-end systems with a focus on performance, security, and scalability.",
+    techStack: [],
+  },
+  {
+    yearRange: "2025 - Present",
+    role: "Photo Services Associate",
+    company: "Photocenter",
+    description:
+      "Operated and maintained photocopying and printing equipment. Edited images using Adobe Photoshop with precision and attention to detail.",
+    techStack: [],
+  },
+  {
     yearRange: "2022 - 2023",
     role: "Front-end Developer",
     company: "Freelancers-Team",
